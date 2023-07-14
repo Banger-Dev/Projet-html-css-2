@@ -1,0 +1,36 @@
+* {
+    font-family: "Raleway", sans-serif;
+
+  }
+    body {
+        max-width: 1400px;
+        margin: auto;
+    }
+    .border{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+   
+  
+@media screen and ( max-width:992px) and (min-width:769px){
+    html body{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    html body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .size-mobile-tittle{
+        display: block;
+        padding-left: 24px;
+        font-size:24px ;
+    }
+    .border{
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+}

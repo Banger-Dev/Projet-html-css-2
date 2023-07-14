@@ -1,0 +1,41 @@
+
+.footer_blc
+{
+  background-color:  #f2f2f2;
+  display: flex;
+  
+}
+footer ul{
+    list-style-type: none;
+   padding-right: 100px;
+    
+  }
+  
+  footer h4
+  {
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  
+  footer li
+  {
+    line-height: 30px;
+   
+  }
+
+  @media screen and ( max-width:992px) and (min-width:769px){
+    footer ul{
+      padding-right: 0px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px){
+    .footer_blc{
+        flex-direction: column;
+    }
+    footer h4{
+      margin-top: 10px;
+    }
+
+  }
